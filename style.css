@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    color: aquamarine;
+    padding: 1%;
+   
+    
+}
+p{
+    color: rgb(118, 75, 159);
+}
+img{
+    width: 20vw;
+    border:2px solid rgb(178, 104, 247);
+    margin: 1rem;
+    padding: 1rem;
+}
+h2{
+    color: rgb(126, 235, 24);
+    background-color: antiquewhite;
+}
+ul{
+  list-style-type: circle;
+  /* background-color: rgb(149, 193, 232);   */
+}
+ul li{
+    color: blueviolet;
+    padding: .5rem;
+}
+ol li{
+    color: rgb(28, 85, 66);
+    padding: .5rem;
+}
+table th{
+    color: rgb(45, 0, 88);
+    background-color: bisque;
+}
+table td{
+    color: rgba(81, 29, 6, 0.986);
+    background-color: azure;
+}
+input[type=text] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 233, 233);
+  }
+input[type=number] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(195, 242, 242);
+  }
+  input[type=submit]{
+    color: brown;
+    background-color: rgb(192, 192, 232);
+    width: 15vw;
+    height: 30px;
+  }
+  form{
+    border: 2px solid rgb(79, 28, 113);
+  }
