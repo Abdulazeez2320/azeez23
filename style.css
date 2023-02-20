@@ -17,10 +17,13 @@ img{
     border:2px solid rgb(178, 104, 247);
     margin: 1rem;
     padding: 1rem;
+    border-radius: 5px;
+    background-color: aliceblue;
 }
 h2{
     color: rgb(126, 235, 24);
     background-color: antiquewhite;
+    border-radius: 5px;
 }
 ul{
   list-style-type: circle;
@@ -37,10 +40,12 @@ ol li{
 table th{
     color: rgb(45, 0, 88);
     background-color: bisque;
+    border-radius: 5px;
 }
 table td{
     color: rgba(81, 29, 6, 0.986);
     background-color: azure;
+    border-radius: 5px;
 }
 input[type=text] {
     width: 10%;
@@ -48,6 +53,7 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     background-color: rgb(199, 233, 233);
+    border-radius: 5px;
   }
 input[type=number] {
     width: 10%;
@@ -55,13 +61,17 @@ input[type=number] {
     margin: 8px 0;
     box-sizing: border-box;
     background-color: rgb(195, 242, 242);
+    border-radius: 5px;
   }
   input[type=submit]{
     color: brown;
     background-color: rgb(192, 192, 232);
     width: 15vw;
     height: 30px;
+    border-radius: 5px;
+    margin: 5px;
   }
   form{
     border: 2px solid rgb(79, 28, 113);
   }
+  
